@@ -1,6 +1,6 @@
 /venv
 
-Internet.xlsx
+
 mapa_conectividad.xlsx
 Portabilidad.xlsx
 servicios_postales.xlsx
@@ -10,3 +10,4 @@ Television.xlsx
 ~$Internet.xlsx
 
 EDA_raw.ipynb
+README-2.md

@@ -1,58 +1,58 @@
-# <h1 align='center'> **Henry DataPT11 - Proyecto Individual 02** </h1>
-# <h1 align="center">**Telecomunicaciones**</h1>
+# <h1 align='center'> **Henry DataPT11 - Individual Project 02** </h1>
+# <h1 align="center">**Telecommunications**</h1>
 
-### Tabla de contenido
-1. [Descripción](#descripción)
-2. [Requisitos](#requisitos)
-3. [Estructura del Proyecto](#estructura-del-proyecto)
-4. [Datos y Fuentes](#datos-y-fuentes)
-5. [Metodología](#metodología)
+### Table of Contents
+1. [Description](#description)
+2. [Requirements](#requirements)
+3. [Project Structure](#project-structure)
+4. [Data and Sources](#data-and-sources)
+5. [Methodology](#methodology)
 6. [Insights](#insights)
-7. [Conclusiones](#conclusiones)
-8. [Recomendaciones](#recomendaciones)
-9. [KPI's propuestos](#kpis-propuestos)
+7. [Conclusions](#conclusions)
+8. [Recommendations](#recommendations)
+9. [Proposed KPIs](#proposed-kpis)
 10. [Autor](#autor)
 
-### Descripción
-Este proyecto tiene como objetivo realizar un análisis completo del comportamiento del sector telecomunicaciones a nivel nacional y provincial en Argentina, con el fin de orientar a la empresa a identificar tendencias y oportunidades de crecimiento en la oferta de accesos a internet a la población. Mediante el análisis de los datos disponibles, se generaran insights de los que se extraerán conclusiones y recomendaciones a seguir para capitalizar las oportunidades encontradas.
+### Description
+This project aims to conduct a comprehensive analysis of the behavior of the telecommunications sector at the national and provincial level in Argentina, in order to guide the company to identify trends and growth opportunities in the supply of Internet access to the population. Through the analysis of the available data, insights will be generated from which conclusions and recommendations will be drawn to capitalize on the opportunities found.
 
-### Requisitos
-- Python 3.7 o superior
+### Requirements
+- Python 3.7 or latest
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 
-### Estructura del Proyecto
-- `EDA.ipynb`: Análisis exploratorio de los datos.
-- `HenryPI02.pbix` : Dashboard para el cliente.
-- `README.md`: Resumen del proyecto.
+### Project Structure
+- `EDA.ipynb`: Exploratory Data Analysis.
+- `HenryPI02.pbix` : Client's Dashboard.
+- `README.md`: Project Summary.
 
-### Datos y Fuentes
-- Fuente: Los datos fueron obtenidos de la página del Ente Nacional de Comunicaciones (ENACOM) de Argentina. La ENACOM es el organismo regulador de las telecomunicaciones en Argentina, responsable de la regulación y control de los servicios de comunicación en el país.
-- Datos: [Datasets](https://indicadores.enacom.gob.ar/datos-abiertos)
+### Data and Sources
+- Source: Data is from the website of the National Communications Agency (ENACOM in Spanish) of Argentina. ENACOM is the telecommunications regulatory body in Argentina, responsible for the regulation and control of communications services in the country.
+- Data: [Datasets](https://indicadores.enacom.gob.ar/datos-abiertos)
 
-### Metodología
-Se realizó revision de los datasets, busqueda de valores nulos, erróneos, faltantes, duplicados. Corrección de errores e imputación de valores. Graficos de lineas para observar el comportamiento de las variables a través del tiempo y mapas de calor para observar la correlacion entre los diferentes atributos.
+### Methodology
+The datasets were reviewed, searching for null, erroneous, missing, and duplicate values. Error correction and value imputation. Line plots were used to observe the behavior of the variables over time and heat maps were used to observe the correlation between the different attributes.
 
 ### Insights
-- El número de accesos a telefonía fija y conexión a internet mediante ADSL disminuye con el tiempo.
-- El numero de accesos a internet mediante cablemodem (misma infraestructura de television por cable) tiende a aumentar a través del tiempo.
-- La fibra óptica muestra crecimiento exponencial en todas las provincias a partir del rango de años entre 2019-2022.
+- The number of landlines accesses and ADSL internet connections decreases over time.
+- The number of cable modem internet accesses (same infrastructure as cable TV) tends to increase over time.
+- Fiber-optic shows exponential growth in all provinces from the range of years between 2019-2022.
 
-### Conclusiones
-- La telefonía fija, y por ende, el ADSL, son tecnologías que están siendo descartadas por los consumidores argentinos.
-- La demanda de internet mediante cablemodem es creciente, independientemente del comportamiento de su compañera de infraestructura: la televisión por cable.
-- Los proveedores de fibra óptica fueron los mas beneficiados de las consecuencias de la pandemia.
+### Conclusions
+- Landlines and, therefore, ADSL are technologies that are being discarded by Argentine consumers.
+- The demand for internet via cable modem is growing, regardless of the performance of its infrastructure partner: cable TV.
+- Fiber-optic providers were the most benefited from the consequences of the pandemic.
 
-### Recomendaciones
-- No invertir en ADSL ni en telefonía fija, ya que son tecnologías que están quedando obsoletas y el público es consciente de ello.
-- Invertir en otras tecnologías de acceso a internet, en especial cablemodem y fibra óptica.
+### Recommendations
+- Do not invest in ADSL or landline infrastructure, as these technologies are becoming obsolete and the public is aware of this.
+- Invest in other Internet access technologies, especially cable modem and fiber-optic.
 
-### KPI's propuestos
-1. Aumentar en 1% la proporcion de la cobertura de acceso a internet mediante cablemovil a internet con respecto al total de accesos a television por cable, para el proximo trimestre, por provincia.
-2. Aumentar en 5% el numero total de accesos a internet mediante fibra óptica a internet, para el proximo trimestre, por provincia.
-3. Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100 hogares, por provincia.
+### Proposed KPIs
+1. Increase by 1% the proportion of cablemodem Internet access coverage in relation to the total number of cable TV accesses, per province, over the next quarter.
+2. Increase by 5% the total number of Internet accesses through fiber-optic, per province, over the next quarter.
+3. Increase by 2% the number of Internet accesses for every 100 homes, per province, over the next quarter.
 
 ### Autor
-Samuel Antonio Rangel - Contacto: [LinkedIn](https://www.linkedin.com/in/samuel-antonio-rangel-sar021/)
+Samuel Antonio Rangel - Contact: [LinkedIn](https://www.linkedin.com/in/samuel-antonio-rangel-sar021/)

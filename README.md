@@ -24,9 +24,9 @@ This project aims to conduct a comprehensive analysis of the behavior of the tel
 - Seaborn
 
 ### Project Structure
-- `EDA.ipynb`: Exploratory Data Analysis.
-- `HenryPI02.pbix` : Client's Dashboard.
-- `README.md`: Project Summary.
+- [`EDA.ipynb`](EDA.ipynb): Exploratory Data Analysis.
+- [`HenryPI02.pbix`](Dashboards/HenryPI02.pbix) : Client's Dashboard.
+- [`README.md`](README.md): Project Summary.
 
 ### Data and Sources
 - Source: Data is from the website of the National Communications Agency (ENACOM in Spanish) of Argentina. ENACOM is the telecommunications regulatory body in Argentina, responsible for the regulation and control of communications services in the country.
